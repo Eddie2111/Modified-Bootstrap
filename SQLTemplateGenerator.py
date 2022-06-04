@@ -22,7 +22,7 @@ def bodyGen():
         body += rd.choice(dictionary)+' ';
     return body;
 def dateGen():
-    year = '2022-06-02' # // add date here
+    year = '2022' # // add date here
     month = rd.choice([1,2,3,4,5,6]);
     day = rd.choice([i for i in range(1,30)])
     stringify = ('{}-{}-{}').format(year,month,day);
